@@ -27,4 +27,11 @@ li{list-style: none;}
 .my-15{margin: 15px 0;}
 .sec-gap{padding: 100px 0;}
 
+.half-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* --------------------- Responsive Media Quires css --------------------- */
