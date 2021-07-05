@@ -6,6 +6,3 @@ a{text-decoration: none;}
 li{list-style: none;}
 
 /* header */
-.dropdown-menu[data-bs-popper] {
-    left: -25%;
-}
