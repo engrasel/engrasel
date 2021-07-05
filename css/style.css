@@ -1,2 +1,6 @@
 
 /* Banner */
+.banner{
+    background: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
