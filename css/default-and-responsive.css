@@ -27,14 +27,16 @@ li{list-style: none;}
 .my-15{margin: 15px 0;}
 .sec-gap{padding: 50px 0;}
 
-.half-width{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.half-width {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
 }
 
 
 /* --------------------- Responsive Media Quires css --------------------- */
 @media only screen and (max-width: 991px){
-    .half-width{flex-direction: column;}
+    .half-width{
+        grid-template-columns: 1fr;
+    }
 }
