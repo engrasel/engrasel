@@ -3,4 +3,29 @@
 .banner{
     background: url(../images/top-banner.png);
     background-repeat: no-repeat;
+    position: relative;
 }
+
+
+// logo slide
+  .logo-slide {
+    width: 100%;
+    max-width: 188px;
+    height: auto;
+  }
+  @media (min-width: 992px) {
+    .logo-slide img {
+      display: block;
+    }
+  }
+  
+  .pagination-arrow {
+    font-family: "Font Awesome 5";
+    font-weight: 300;
+    cursor: pointer;
+  }
+  .pagination-arrow i {
+    font-size: 35px;
+    color: grey;
+    opacity: 0.25;
+  }
