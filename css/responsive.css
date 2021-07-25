@@ -1,0 +1,35 @@
+
+/* --------------------- Responsive Media Quires css --------------------- */
+@media only screen and (max-width: 991px){
+    .half-width{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .logo-slide img {
+      display: block;
+    }
+    
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (max-width: 768px) {
+    .logo-slide.slick-slide img{
+      margin: auto;
+    }
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 576px) {
+    .logo-slide.slick-slide{
+      margin-top: 20px;
+    }
+    .logo-slide.slick-slide img{
+      margin: inherit;
+    }
+    .offcanvas {
+      max-width: 80%;
+    }
+  }
