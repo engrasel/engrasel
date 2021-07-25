@@ -13,12 +13,6 @@
     max-width: 188px;
     height: auto;
   }
-  @media (min-width: 992px) {
-    .logo-slide img {
-      display: block;
-    }
-  }
-  
   .pagination-arrow {
     font-family: "Font Awesome 5";
     font-weight: 300;
@@ -29,3 +23,31 @@
     color: grey;
     opacity: 0.25;
   }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .logo-slide img {
+      display: block;
+    }
+    
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (max-width: 768px) {
+    .logo-slide.slick-slide img{
+      margin: auto;
+    }
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 576px) {
+    .logo-slide.slick-slide{
+      margin-top: 20px;
+    }
+    .logo-slide.slick-slide img{
+      margin: inherit;
+    }
+    .offcanvas {
+      max-width: 80%;
+    }
+  } 
+ 
