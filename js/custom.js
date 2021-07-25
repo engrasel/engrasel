@@ -30,6 +30,14 @@ $('.trust-logo-deck').slick({
           }
       },
       {
+          breakpoint: 575,
+          settings: {
+              rows: 1,
+              slidesToShow: 1,
+              slidesToScroll: 1
+          }
+      },
+      {
           breakpoint: 767,
           settings: {
               rows: 1,
